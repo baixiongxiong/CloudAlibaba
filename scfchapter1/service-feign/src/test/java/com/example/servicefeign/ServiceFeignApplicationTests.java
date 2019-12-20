@@ -1,0 +1,12 @@
+package com.example.servicefeign;
+
+import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ServiceFeignApplicationTests {
+
+    void contextLoads() {
+    }
+
+}

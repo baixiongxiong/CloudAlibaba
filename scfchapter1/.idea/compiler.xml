@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-zuul" />
+        <module name="service-feign" />
+        <module name="eureka-server" />
+        <module name="service-gateway" />
+        <module name="service-hi" />
+        <module name="service-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sc-f-gateway-first-sight" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="sc-f-gateway-first-sight" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
+      <module name="service-gateway" options="-parameters" />
+      <module name="service-hi" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
